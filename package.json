@@ -1,0 +1,16 @@
+{
+  "name": "@worksai/worksai-commercecatalog",
+  "version": "1.0.0",
+  "description": "MIT-licensed PHP headless e-commerce catalog with AI SKU enrichment and Schema.org Product JSON-LD.",
+  "license": "MIT",
+  "type": "module",
+  "main": "src/index.mjs",
+  "scripts": {
+    "test": "node --test tests/product.test.mjs",
+    "lint": "node --check src/index.mjs && node --check tests/product.test.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DevinAiUk/worksai-commercecatalog.git"
+  }
+}
