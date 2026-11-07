@@ -1,0 +1,14 @@
+{
+  "name": "worksai/worksai-commercecatalog",
+  "description": "MIT-licensed PHP headless e-commerce catalog with AI SKU enrichment and Schema.org Product JSON-LD.",
+  "type": "wordpress-plugin",
+  "license": "MIT",
+  "require": {
+    "php": ">=8.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "WorksAi\\WorksAiCommerceCatalog\\": "src/"
+    }
+  }
+}
